@@ -1,0 +1,133 @@
+/* ==== Global Styling ==== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: whitesmoke;
+  color: black;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.dark-mode {
+  background: black;
+  color: white;
+}
+
+/* ==== Container ==== */
+.container {
+  width: 90%;
+  max-width: 600px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: background 0.3s;
+}
+
+.dark-mode .container {
+  background: dimgray;
+}
+
+.container img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 4px solid blue;
+}
+
+h1 {
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+.title {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  color: blue;
+}
+
+/* ==== Sections ==== */
+.section {
+  margin: 25px 0;
+  text-align: left;
+}
+
+.section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  border-left: 4px solid blue;
+  padding-left: 10px;
+}
+
+.section ul {
+  list-style: none;
+  padding-left: 10px;
+}
+
+.section ul li {
+  padding: 5px 0;
+  font-size: 1rem;
+}
+
+/* ==== Contact & Buttons ==== */
+.contact a,
+.social a {
+  color: blue;
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: blue;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: darkblue;
+}
+
+/* ==== Social Links ==== */
+.social ul li {
+  padding: 6px 0;
+  font-size: 1rem;
+}
+
+/* ==== Footer ==== */
+footer {
+  text-align: center;
+  margin-top: 20px;
+  opacity: 0.8;
+}
+
+/* ==== Theme Toggle Button ==== */
+.toggle-btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px 16px;
+  background: blue;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.toggle-btn:hover {
+  background: darkblue;
+}
+
+
